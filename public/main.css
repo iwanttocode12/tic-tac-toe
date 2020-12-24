@@ -1,0 +1,70 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	background-color: #DCDCDC;
+}
+
+button {
+	-webkit-appearance: none;
+	padding: 0;
+	height: 200px;
+	width: 200px;
+	background-color:#FFF;
+	color:#000;
+	font-weight: 800;
+	font-size: 150px;
+	outline: none;
+}
+
+#myContainer {
+	margin: 10px auto;
+}
+
+#LoseDiv {
+	display: none;
+}
+
+#LoseDiv h1 {
+	font-weight: 800;
+	font-size: 100px;
+	margin: 10px 0;
+	animation: blink 2s infinite;
+}
+
+
+@keyframes blink {
+	0%	{opacity: 1.0;}
+	30%  {opacity: 0.8;}
+	50%  {opacity: 0.4;}
+	70% {opacity: 0.8;}
+	100%  {opacity: 1.0;}
+}
+
+
+.playbtn {
+	padding: 10px;
+	margin: 5px 15px;
+	background-color: inherit;
+	border-radius: 8%;
+	border: solid 1px black;
+	height: 50px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.playbtn:hover{
+	background-color: #FF69B4;
+	opacity: 0.8;
+}
+
+#single:hover{
+	background-color: #FF8C00;
+	opacity: 0.8;
+}
+
+#multi:hover{
+	background-color: #9932CC;
+	opacity: 0.8;
+}
